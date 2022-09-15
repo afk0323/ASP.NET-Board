@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\Users\Magiceco_1\source\repos\MagicBoard\MagicBoard\bin\Release\net6.0\publish\</_PublishTargetUrl>
+    <History>True|2022-09-15T02:10:34.9963078Z;True|2022-09-15T11:08:58.2247232+09:00;True|2022-09-15T09:56:13.6219538+09:00;True|2022-09-14T15:24:34.9829238+09:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+</Project>

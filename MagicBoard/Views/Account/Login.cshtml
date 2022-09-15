@@ -1,0 +1,27 @@
+﻿<!-- 로그인을 위해서 Model을 가져와야하는데, 로그인 모델이 정의되어있는
+이 프로젝트의 ViewModel 폴더의 LoginViewModel을 불러오겠다 -->
+@model MagicBoard.ViewModel.LoginViewModel
+
+<h2>로그인</h2>
+
+<form class="form-horizontal" method="post" asp-controller="Account" asp-action="Login">
+    <!-- 전역적인 경고 메세지 -->
+    <div class="text-danger" asp-validation-summary="ModelOnly"></div>
+    <br>
+    <div class="form-group">
+        <label>사용자 ID</label>
+        <input type="text" asp-for="UserId" class="form-control" placeholder="사용자 ID 입력" />
+        <span class="text-danger" asp-validation-for="UserId"></span>
+    </div>
+    <br>
+    <div class="form-group">
+        <label>사용자 비밀번호</label>
+        <input type="password" asp-for="UserPassword" class="form-control" placeholder="사용자 비밀번호 입력" />
+        <span class="text-danger" asp-validation-for="UserId"></span>
+    </div>
+    <br>
+    <div class="form-group">
+        <button type="submit" class="btn btn-success">로그인</button>
+    </div>
+
+</form>

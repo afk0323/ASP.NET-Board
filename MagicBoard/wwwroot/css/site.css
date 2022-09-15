@@ -1,0 +1,29 @@
+@import url('https://cdn.jsdelivr.net/npm/galmuri@latest/dist/galmuri.css');
+
+html {
+   font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+  font-family: Galmuri7, sans-serif;
+  font-size: 18px;
+}
+
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
