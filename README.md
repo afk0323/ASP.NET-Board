@@ -4,7 +4,7 @@
 <br>
 
 ## 🚀 진행과정
-- ASP.NET core6 MVC로 제작
+- ASP.NET Core MVC로 제작
 - 회원가입, 로그인, 게시판 기능
 - IIS Server에 Publish
 - localhost에서 접속
